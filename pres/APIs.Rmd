@@ -30,12 +30,30 @@ APIs are designed to work with actions.
 
 # httr
 
-## hhtr
+## httr
 httr is a package designed to make consuming APIs easier.
 
 ## Simple httr
 
+httr has verbs ...
+
 ```{r}
 library(httr)
 httr::GET("https://google.co.uk")
+```
+
+## Simple httr
+
+Get response info ...
+```{r}
+goog<-httr::GET("https://google.co.uk")
+status_code(goog)
+headers(goog)
+```
+
+## Simple httr
+
+Get content...
+```{r}
+content(goog)
 ```
