@@ -24,46 +24,30 @@ Type 'q()' to quit R.
 
 
 processing file: APIs.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |................                                                 |  25%
+  |                                                                         |                                                                 |   0%  |                                                                         |........                                                         |  12%
+  ordinary text without R code
+
+  |                                                                         |................                                                 |  25%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |........................                                         |  38%
   ordinary text without R code
 
   |                                                                         |................................                                 |  50%
-label: setup (with options) 
-List of 1
- $ include: logi FALSE
+label: unnamed-chunk-1
+  |                                                                         |.........................................                        |  62%
+  ordinary text without R code
 
   |                                                                         |.................................................                |  75%
+label: unnamed-chunk-2
+  |                                                                         |.........................................................        |  88%
   ordinary text without R code
 
   |                                                                         |.................................................................| 100%
-label: unnamed-chunk-1
+label: unnamed-chunk-3
+Quitting from lines 58-59 (APIs.Rmd) 
+Error: Please install xml2 package
 
-output file: APIs.knit.md
-
-/usr/bin/pandoc +RTS -K512m -RTS APIs.utf8.md --to revealjs --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output /home/travis/build/lockedata/TR-webbasics/docs/APIs.html --smart --email-obfuscation none --self-contained --template /home/travis/R/Library/revealjs/rmarkdown/templates/revealjs_presentation/resources/default.html --variable center=false --slide-level 2 --variable theme=lockedata --variable transition=default --variable backgroundTransition=default --variable history=true --variable "height='1080'" --variable "width='1920'" --variable "margin='0.05'" --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --variable revealjs-url=/home/travis/R/Library/revealjs/reveal.js-3.3.0.1 --highlight-style pygments 
-
-Output created: docs/APIs.html
-
-
-processing file: Web101.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
-   inline R code fragments
-
-  |                                                                         |...........................................                      |  67%
-label: setup (with options) 
-List of 1
- $ include: logi FALSE
-
-  |                                                                         |.................................................................| 100%
-  ordinary text without R code
-
-
-output file: Web101.knit.md
-
-/usr/bin/pandoc +RTS -K512m -RTS Web101.utf8.md --to revealjs --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output /home/travis/build/lockedata/TR-webbasics/docs/Web101.html --smart --email-obfuscation none --self-contained --template /home/travis/R/Library/revealjs/rmarkdown/templates/revealjs_presentation/resources/default.html --variable center=false --slide-level 2 --variable theme=lockedata --variable transition=default --variable backgroundTransition=default --variable history=true --variable "height='1080'" --variable "width='1920'" --variable "margin='0.05'" --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --variable revealjs-url=/home/travis/R/Library/revealjs/reveal.js-3.3.0.1 --highlight-style pygments 
-
-Output created: docs/Web101.html
-> 
-> proc.time()
-   user  system elapsed 
-  3.176   0.264   5.194 
+Execution halted
