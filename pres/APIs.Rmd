@@ -57,3 +57,22 @@ Get content...
 ```{r}
 content(goog)
 ```
+
+## Simple httr
+
+It can pre-parse common formats like JSON...
+```{r}
+someJSON<-content(GET("https://api.github.com/users/stephlocke/repos"))
+print(someJSON[1])
+```
+# jsonlite
+
+## jsonlite
+Use jsonlite to work with json content returned by APIs
+
+## Simple jsonlite
+Directly consume some APIs
+```{r}
+library(jsonlite)
+fromJSON("https://api.github.com/users/stephlocke/repos")
+```
