@@ -24,28 +24,28 @@ Type 'q()' to quit R.
 
 
 processing file: APIs.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |........                                                         |  12%
+  |                                                                         |                                                                 |   0%  |                                                                         |.....                                                            |   8%
   ordinary text without R code
 
-  |                                                                         |................                                                 |  25%
+  |                                                                         |...........                                                      |  17%
 label: setup (with options) 
 List of 1
  $ include: logi FALSE
 
-  |                                                                         |........................                                         |  38%
+  |                                                                         |................                                                 |  25%
+  ordinary text without R code
+
+  |                                                                         |......................                                           |  33%
+label: unnamed-chunk-1
+  |                                                                         |...........................                                      |  42%
   ordinary text without R code
 
   |                                                                         |................................                                 |  50%
-label: unnamed-chunk-1
-  |                                                                         |.........................................                        |  62%
-  ordinary text without R code
-
-  |                                                                         |.................................................                |  75%
 label: unnamed-chunk-2
-  |                                                                         |.........................................................        |  88%
+  |                                                                         |......................................                           |  58%
   ordinary text without R code
 
-  |                                                                         |.................................................................| 100%
+  |                                                                         |...........................................                      |  67%
 label: unnamed-chunk-3
 Quitting from lines 58-59 (APIs.Rmd) 
 Error: Please install xml2 package
