@@ -8,7 +8,8 @@ Depends:
 Imports: 
     revealjs,
 	httr,
-	purrr
+	purrr,
+	xml2
 Suggests:
     knitr
 Remotes: 

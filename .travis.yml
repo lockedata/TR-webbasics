@@ -2,6 +2,10 @@ language: r
 cache: packages
 latex: false
 warnings_are_errors: false
+addons:
+  apt:
+    packages:
+    - libxml2-dev
 install: 
   - R -e 'install.packages("devtools")'
   - R -e 'devtools::install_deps(dep = T)'
