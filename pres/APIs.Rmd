@@ -1,0 +1,41 @@
+---
+title: "Working with APIs"
+author: "Locke Data"
+date: "14 May 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# APIs
+
+## What is an API?
+An Application Programming Interface (API) is a way to provide instructions to an applications using code.
+
+This saves having to use websites and manually perform actions.
+
+## Interfaces
+Each API should have an **endpoint**, which a unique URL it can be accessed from. Then additional parameters can be provided to provide options to the API.
+
+## Verbs
+APIs are designed to work with actions.
+
+- **GET** is used to retrieve info
+- **POST** is used to insert info (or provide secret data)
+- **PUT** is used to insert info
+- **PATCH** is used to update info
+- **DELETE** is used to remove info
+
+# httr
+
+## hhtr
+httr is a package designed to make consuming APIs easier.
+
+## Simple httr
+
+```{r}
+library(httr)
+httr::GET("https://google.co.uk")
+```

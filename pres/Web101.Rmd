@@ -1,0 +1,61 @@
+---
+title: "Web 101"
+author: "Locke Data"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Internet
+
+## Architecture
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Internet_Connectivity_Triple-Play.svg/2000px-Internet_Connectivity_Triple-Play.svg.png)
+
+## Fundamentally
+It's about making various files available for consumption by different types of systems.
+
+
+
+# Anatomy
+## Call & response
+90s rap structure (call & response) was most certainly based on the internet.
+
+- **You** make a *call* or *request*
+- **Server** gives a *response*
+
+## Data and metadata
+Requests and responses can consist of two parts: 
+
+- metadata: headers
+- data: body or content
+
+## Types of responses
+![](https://pbs.twimg.com/media/B66pZufCMAEE8AB.jpg)
+
+# Content
+
+## Hyper Text Markup Language (HTML)
+HTML is designed to provide instructions to client about the information being delivered by the file. It includes information like whether data is part of a table.
+
+```html
+<a href="link.html">Relative link</a>
+```
+
+## JavaScript Object Notation (JSON)
+JSON is a purely data oriented markup.
+
+```json
+"name": "Steph"
+```
+
+## XML 
+XML is a language partways between JSON and HTML. It uses double tags like HTML but is intended for data.
+
+```xml
+ <person>
+ <FirstName>Steph</FirstName>
+ </person>
+```
